@@ -24,17 +24,6 @@ def resize(image, new_height = 153):
     time.sleep(.1)
     return [new_image, new_width]
     
-
-#def resize(image, new_width=622):
- #   (width, height) = image.size
- #   ratio = 153 / 622
- #   new_height = int(ratio * new_width)
- #   new_dim = (new_width, new_height)
- #   new_image = image.resize(new_dim)
- #   print("Resizing Image")
- #  time.sleep(.1)
- #   return new_image
-    
 #turns the image gray
 def imgtogray(image):
     print("Converting Image to Grayscale")
